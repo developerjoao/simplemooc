@@ -6,7 +6,7 @@ from django.contrib.auth.forms import UserCreationForm
 
 
 def register(request):
-    template_name = 'accounts/register.html'
+    template_name = 'register.html'
     context = {
         'form' : UserCreationForm()
     }
